@@ -1,6 +1,5 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        Shape shape = new Shape("blue", true);
 
         Circle circle = new Circle(5.0, "green", true);
         System.out.println(circle);
