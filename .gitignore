@@ -1,0 +1,7 @@
+*.idea/
+*/.idea
+*.iml
+*/bin
+*/.vscode
+
+talleres/taller-bloque6/EditorialCase/.vscode/settings.json
