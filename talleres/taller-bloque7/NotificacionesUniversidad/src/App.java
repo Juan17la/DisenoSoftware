@@ -11,7 +11,9 @@ import services.NotificacionService;
 
 public class App {
     public static void main(String[] args) throws Exception {
+        System.out.println("=======================================");
         System.out.println("Hello, esta es mi solucion del problema de notificaciones de universidad yeeey ");
+        System.out.println("=======================================");
 
         TipoNotificacion tipo = new Calificaciones();
         TipoNotificacion tipo2 = new RecordatorioPago();
@@ -24,8 +26,8 @@ public class App {
 
         NotificacionService service = new NotificacionService();
 
-        service.enviar(tipo, canales, "juan@example.com");
-        service.enviar(tipo2, canales, "juan@example.com");
+        service.enviar(tipo, canales, "juan@example.com", 123342);
+        service.enviar(tipo2, canales, "juan@example.com", 123342);
 
     }
 }

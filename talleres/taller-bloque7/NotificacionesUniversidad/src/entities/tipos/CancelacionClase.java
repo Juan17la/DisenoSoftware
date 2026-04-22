@@ -4,7 +4,9 @@ public class CancelacionClase implements TipoNotificacion{
 
     @Override
     public String construirMensaje() {
+        System.out.println("=======================================");
         System.out.println("Creando Mensaje de Cancelacion Clase, pipu pipu");
+        System.out.println("=======================================");
         String mensaje = "soy el mensaje de que no hay clase yeeeey";
         return mensaje;
     }
